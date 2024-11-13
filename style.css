@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* .main {
+    text-align: center;
+    justify-content: center;
+    border: 1px black solid;
+} */
+
+.body {
+    text-align: center;
+}
+
+.main {
+    width: 1000px;
+    height: 100vh;
+    border: 3px black solid;
+    margin: 0 auto;
+}
+
+.fileInfo {
+    margin: 0 auto;
+    width: 600px;
+    height: 100vh;
+
+}
+
+.window {
+    margin-top: 50px;
+    width: 500px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.windowNewElement {
+    width: 500px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.buttonTodoInput {
+    border: 1px black solid;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.mainText {
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+}
