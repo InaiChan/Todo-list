@@ -7,11 +7,12 @@ const element = document.getElementById("fileInfo");
 const list = document.getElementById("list");
 
 const renderToDo = () => {
-    toDoList.forEach (function(todo) {
-        let li = document.createElement("li");
-        li.textContent = todo.value;
-        list.appendChild(li);
-    });
+    list.replaceChildren();
+        toDoList.forEach (function(todo) {
+            let li = document.createElement("li");
+            li.textContent = todo.value;
+            list.appendChild(li);
+        });
 };
 
 window.renderToDo = renderToDo;
@@ -30,5 +31,5 @@ button.addEventListener("click", function (buttonAddInput) {
 
     toDoList.add({ value: input.value });
 
-
+    renderToDo();
 });
